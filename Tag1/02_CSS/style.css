@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, Sans-Serif;
+  line-height: 1.5;
+}
+
+#logo {
+  width: 225px;
+  margin-bottom: 30px;
+}
+
+#address-receiver {
+  margin-left: 50%;
+  margin-bottom: 100px;
+}
+
+table {
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+  margin-bottom: 50px;
+}
+
+th {
+  background-color: #33333333;
+}
+
+th,
+td {
+  border: solid 1px black;
+}
+
+td.without-border {
+  border: none;
+}
+
+#total-price {
+  border-bottom: 3px double black;
+}
+
+#signature {
+  min-height: 50px;
+  max-height: 80px;
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-size: 1rem;
+  margin: 0px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0 0 0 16px;
+}
