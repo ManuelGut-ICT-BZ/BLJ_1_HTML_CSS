@@ -30,8 +30,13 @@ td {
   border: solid 1px black;
 }
 
+td:first-child{
+    background-color: rgb(232, 232, 232);
+}
+
 td.without-border {
   border: none;
+  background-color: white;
 }
 
 #total-price {
@@ -41,7 +46,22 @@ td.without-border {
 #signature {
   min-height: 50px;
   max-height: 80px;
-  margin-bottom: 50px;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+a:link{
+    color: blue;
+}
+
+a:active{
+    color: green;
+}
+
+a:visited {
+    color:purple
 }
 
 h2 {
