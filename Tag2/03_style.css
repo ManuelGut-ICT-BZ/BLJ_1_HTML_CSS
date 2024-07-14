@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, Sans-Serif;
+  line-height: 1.5;
+  /*box-shadow: -10px 10px 5px blue !important;*/
+}
+
+#logo {
+  width: 225px;
+  margin-bottom: 30px;
+}
+
+#address-receiver {
+  margin-left: 50%;
+  margin-bottom: 100px;
+}
+
+table {
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+  margin-bottom: 50px;
+}
+
+th {
+  background-color: #33333333;
+}
+
+th,
+td {
+  border: solid 1px black;
+}
+
+td:first-child{
+    background-color: rgb(232, 232, 232);
+}
+
+td.without-border {
+  border: none;
+  background-color: white;
+}
+
+#total-price {
+  border-bottom: 3px double black;
+}
+
+#signature {
+  min-height: 50px;
+  max-height: 80px;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+a:link{
+    color: blue;
+}
+
+a:active{
+    color: green;
+}
+
+a:visited {
+    color:purple
+}
+
+h2 {
+  font-size: 1rem;
+  margin: 0px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0 0 0 16px;
+}
