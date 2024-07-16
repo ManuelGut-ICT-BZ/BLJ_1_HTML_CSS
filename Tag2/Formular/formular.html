@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formular</title>
+  </head>
+  <body>
+    <form action="https://formlog.offline.ch/log" method="GET">
+      <fieldset>
+        <legend>Angaben zur Person</legend>
+
+        <div>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" />
+        </div>
+
+        <div>
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" />
+        </div>
+
+        <div>
+          <label for="street">Strasse</label>
+          <input type="text" id="street" name="street" />
+        </div>
+
+        <div>
+          <label for="postal-code">PLZ</label>
+          <input type="text" id="postal-code" name="postal-code" />
+          <label for="village">Ort</label>
+          <input type="text" id="village" name="village" />
+        </div>
+
+        <div>
+          <label for="phonenumber">Telefonnummer</label>
+          <input type="text" id="phonenumber" />
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Reise</legend>
+        <label for="abo">Welches der folgenden Abos haben Sie?</label>
+        <div>
+          <select name="abo" id="abo">
+            <option value="no-abo">Kein Abo</option>
+            <option value="ga">GA</option>
+            <option value="halbtax">Halbtax</option>
+            <option value="streckenabo">Streckenabo</option>
+          </select>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Hotellerie</legend>
+        <div>
+          <label for="stay-yes">Mit Übernachtung</label>
+          <input type="radio" id="stay-yes" name="stay" value="yes" />
+          <label for="stay-no">Ohne Übernachtung</label>
+          <input type="radio" id="stay-no" name="stay" value="no" />
+        </div>
+        <div>
+          <label for="single-room">Einzelzimmer</label>
+          <input type="radio" id="single-room" name="room" value="single-room" />
+          <label for="double-room">Doppelzimmer</label>
+          <input type="radio" id="double-room" name="room" value="double-room" />
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Sonstiges</legend>
+        <div>
+            <label for="notes">Bemerkungen</label>
+        </div>
+        <textarea name="notes" id="notes"></textarea>
+      </fieldset>
+
+      <button type="submit" name="submit">Formular absenden</button>
+    </form>
+  </body>
+</html>

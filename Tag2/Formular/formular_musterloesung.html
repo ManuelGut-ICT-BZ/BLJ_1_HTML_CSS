@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Formular</title>
+</head>
+<body>
+<form action="https://formlog.offline.ch/log" method="post">
+    <fieldset>
+        <legend>Persönliche Informationen:</legend>
+        <div class="input">
+            <label for="name">Name*:</label>
+            <input type="text" name="name" id="name" placeholder="Bud Spencer" required>
+        </div>
+        <div class="input">
+            <label for="email">Email*:</label>
+            <input type="email" name="email" id="email" placeholder="beispiel@example.com" required="required">
+        </div>
+        <div class="input">
+            <label for="street">Strasse:</label>
+            <input type="text" name="street" id="street" placeholder="Musterstrasse 22">
+        </div>
+        <div class="input-group">
+            <div class="input">
+                <label for="code">PLZ:</label>
+                <input type="text" name="code" id="code" placeholder="2222">
+            </div>
+            <div class="input">
+                <label for="city">Ort:</label>
+                <input type="text" name="city" id="city" placeholder="Musterhausen">
+            </div>
+        </div>
+        <div class="input">
+            <label for="phone">Telefon:</label>
+            <input type="text" name="phone" id="phone" value="+41">
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Informationen zum Event</legend>
+        <div class="input">
+            <label for="abo">Welche der folgenden Abonnemente haben Sie?</label>
+            <select name="abo" id="abo">
+                <option value="no-abo">Kein Abo</option>
+                <option value="ga">GA</option>
+                <option value="halbtax">Halbtax</option>
+                <option value="streckenabo">Streckenabo Luzern-Zürich</option>
+            </select>
+        </div>
+        <div class="input">
+            Was wünschen Sie für ein Abendessen?
+            <label for="menu_1"><input type="radio" name="menu" id="menu_1" value="1">Menü 1</label>
+            <label for="menu_2"><input type="radio" name="menu" id="menu_2" value="2">Menü 2</label>
+        </div>
+        <div class="input">
+            Mit oder ohne Übernachtung?
+            <label for="overnight_yes"><input type="radio" name="overnight" id="overnight_yes" value="yes">Mit
+                Übernachtung</label>
+            <label for="overnight_no"><input type="radio" name="overnight" id="overnight_no" value="no">Ohne
+                Übernachtung</label>
+        </div>
+        <div class="input">
+            Einzel- oder Doppelzimmer?
+            <label for="room_single"><input type="radio" name="overnight-room" id="room_single" value="single">Einzelzimmer
+            </label>
+            <label for="room_double"><input type="radio" name="overnight-room" id="room_double" value="double">Doppelzimmer
+            </label>
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Sonstiges</legend>
+        <div class="input">
+            <label for="msg">Bemerkungen:</label>
+            <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+        </div>
+    </fieldset>
+    <button type="submit">Absenden</button>
+</form>
+</body>
+</html>
