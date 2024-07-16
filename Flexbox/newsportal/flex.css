@@ -1,0 +1,48 @@
+/** Für Aufgabe 1 kannst du von hier... **/
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.card{
+    flex-grow: 1;
+}
+
+.card.headline{
+    flex-grow: 2;
+}
+
+
+
+/** ...bis hier CSS-Regeln hinzufügen. **/
+
+@media screen and (max-width: 768px) {
+    /* Der Code innerhalb dieser Klammern wird nur auf Bildschirmen
+       angezeigt, die weniger als 768px breit sind. */
+
+    /** Für Aufgabe 2 kannst du von hier... **/
+
+    .card.headline {
+        width: 100%;
+        order: -1;
+        margin: 1rem 0;
+    }
+
+    /** ...bis hier CSS-Regeln hinzufügen. **/
+
+}
+
+@media screen and (max-width: 480px) {
+    /* Der Code innerhalb dieser Klammern wird nur auf Bildschirmen
+       angezeigt, die weniger als 480px breit sind. */
+
+    /** Für Aufgabe 3 kannst du von hier... **/
+    .card {
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    /** ...bis hier CSS-Regeln hinzufügen. **/
+
+}
