@@ -8,7 +8,7 @@
 ### Design / Layout
 - Schriften und Grösse korrekt und einheitlich
 - Farben etc. mit Design vergleichen, Kontrast ok?
-- Bilder (Bildgrösse: Sinnvoll komprimiert? / Bildqualität (Auflösung, Kontrast) / Bildlizenzen geklärt?
+- Bilder (Bildgrösse: Sinnvoll komprimiert? / Bildqualität (Auflösung, Kontrast) / Bildlizenzen geklärt?)
 - Übersichtlichkeit
 - Navigation (inkl. Mobile)
 - Usability
