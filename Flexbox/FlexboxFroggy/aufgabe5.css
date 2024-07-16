@@ -1,0 +1,6 @@
+#pond {
+  display: flex;
+
+  /*Align-items richtet die Elemente vertikal aus*/
+  align-items: flex-end;
+}
