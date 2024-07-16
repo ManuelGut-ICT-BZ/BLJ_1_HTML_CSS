@@ -44,7 +44,12 @@ td.without-border {
   border-bottom: 3px double black;
 }
 
-#signature {
+.person {
+  display: inline-block;
+  margin-right: 70px
+}
+
+.signature {
   min-height: 50px;
   max-height: 80px;
 }
