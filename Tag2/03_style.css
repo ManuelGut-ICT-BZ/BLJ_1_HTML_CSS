@@ -1,5 +1,6 @@
 body {
-  font-family: Arial, Sans-Serif;
+  /*font-family: 'Arial', Sans-Serif;*/
+  font-family: 'Lato', Sans-Serif;
   line-height: 1.5;
   /*box-shadow: -10px 10px 5px blue !important;*/
 }
