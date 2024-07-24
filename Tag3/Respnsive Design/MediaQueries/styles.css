@@ -1,0 +1,53 @@
+body {
+  background: white;
+  color: black;
+}
+
+.container {
+  width: 1200px;
+}
+
+.container2 {
+  width: 1200px;
+}
+
+@media (light-level: dim) {
+  /**
+  * Bei dunkeln Lichtverhältnissen soll der Website-Hintergrund
+   * zu schwarz wechseln.
+   */
+  body {
+    background: black;
+    color: white;
+  }
+}
+
+.container {
+  background-color: rgb(0, 225, 255);
+}
+
+@media (max-width: 1200px) {
+  /**
+  * Sobald das Browserfenster weniger Breit wird als
+  * 1200px, soll der Container nur noch 600px Breit sein.
+  */
+  .container {
+    width: 600px;
+    background-color: red;
+  }
+}
+
+.container2 {
+    background-color: rgb(0, 225, 255);;
+  }
+
+@media screen and (max-width: 1200px) {
+  /** 
+  * Diese Styles werden garantiert nur bei der Anzeige
+  * auf Bildschirmen angewendet.
+  */
+  .container2 {
+    width: 600px;
+    background-color: green;
+  }
+}
