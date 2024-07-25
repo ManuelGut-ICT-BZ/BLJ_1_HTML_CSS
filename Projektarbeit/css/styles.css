@@ -1,0 +1,98 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-image: url("./../assets/background-image-wall.jpg");
+}
+
+nav {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #5f4bb6;
+}
+
+.nav-item {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  font-size: larger;
+  padding: 14px 30px;
+  text-decoration: none;
+}
+
+.nav-item:hover {
+  background-color: #86a5d9;
+  color: black;
+}
+
+main {
+  margin: 0 10%;
+  background-color: white;
+  padding: 50px;
+}
+
+.container-person {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto, 50px;
+  gap: 5px;
+}
+
+#person-title {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+#person-list {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+#person-image {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  max-width: 200px;
+}
+
+.container-impression-images{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.impression-image img {
+    height: auto; /* Hält das Seitenverhältnis bei */
+    max-width: 95%; /* Verhindert, dass die Bilder größer als ihr Container werden */
+  }
+
+footer {
+  /*position: fixed;*/
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 5px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #26f0f1;
+  color: black;
+  text-align: center;
+}
+
+.footer-item {
+  padding-top: 10px;
+}
+
+.footer-item img{
+    width: 30%;
+  }
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 440px) {
+}
