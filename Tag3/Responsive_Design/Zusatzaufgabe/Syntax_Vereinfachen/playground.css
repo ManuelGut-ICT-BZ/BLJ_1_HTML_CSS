@@ -1,0 +1,9 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(7, 80px);
+    grid-template-rows: repeat(3, 200px) auto repeat(6, 200px);
+}
+
+.element {
+    background-color: orchid;
+}
